@@ -103,8 +103,8 @@ EACH CLIENT GETS
 
 <div align="center">
 
-<img height="160" src="https://github-readme-stats.vercel.app/api?username=Praveenkumarbyrapuneni&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&title_color=00D9FF&icon_color=7C3AED&text_color=ffffff&bg_color=0d1117" />
-<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praveenkumarbyrapuneni&layout=compact&theme=github_dark&hide_border=true&langs_count=6&title_color=00D9FF&text_color=ffffff&bg_color=0d1117" />
+<img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Praveenkumarbyrapuneni&theme=github_dark" />
+<img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Praveenkumarbyrapuneni&theme=github_dark" />
 
 </div>
 
