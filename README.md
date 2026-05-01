@@ -1,83 +1,89 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,100:1a1a2e&height=160&section=header&text=Praveen%20Kumar&fontSize=38&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=AI%20Automation%20Engineer%20·%20Systems%20Architect&descAlignY=58&descSize=14" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:0a0a1a,100:0d1117&height=200&section=header&text=PRAVEEN%20KUMAR&fontSize=52&fontColor=00D9FF&animation=fadeIn&fontAlignY=55&stroke=00D9FF&strokeWidth=1" width="100%"/>
+
+</div>
+
+<div align="center">
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=400&color=00D9FF&center=true&vCenter=true&multiline=false&repeat=true&width=700&lines=Building+AI+Operating+Systems.+Not+wrappers.;Systems+that+learn.+Systems+that+compound.;Hook-driven.+Memory-persistent.+Self-improving.;Infrastructure+that+outthinks+itself.;One+OS+to+run+every+project.+Forever.)](https://git.io/typing-svg)
+
+</div>
+
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=Praveenkumarbyrapuneni&style=flat-square&color=00D9FF&label=PROFILE+VIEWS)
+&nbsp;&nbsp;
+![GitHub followers](https://img.shields.io/github/followers/Praveenkumarbyrapuneni?style=flat-square&color=7C3AED&label=FOLLOWERS)
 
 </div>
 
 <br/>
 
+---
+
+<div align="center">
+
 ```
-I build systems that learn, improve, and run themselves.
-Not demos. Not wrappers. Infrastructure that compounds.
+╔══════════════════════════════════════════════════════════════════╗
+║              CLAUDE OS  —  SELF-IMPROVING AI OPERATING SYSTEM   ║
+║         The only system of its kind. Built from scratch.        ║
+╚══════════════════════════════════════════════════════════════════╝
 ```
 
-<br/>
+</div>
+
+```
+4-TIER MEMORY HIERARCHY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Tier 4  OS Global    ~/.claude/memory/os/
+           Universal patterns + mistakes. Loaded in every session.
+
+  Tier 3  Project      ~/.claude/memory/projects/<name>/
+           Per-client intelligence. Persists forever. Never mixed.
+           Auto-detected via git remote. Auto-created on first session.
+
+  Tier 2  Agent        ~/.claude/agents/<name>/memory/
+           Domain expertise per specialization. Activates by workspace.
+
+  Tier 1  Session      In-context ephemeral → promoted to Tier 2/3 on compact.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+```
+HOOK SYSTEM  —  ZERO MANUAL INTERVENTION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  SessionStart     →  Loads project + OS memory before first keystroke
+  UserPromptSubmit →  Qwen3:8b classifies complexity → routes model depth
+  PostCompact      →  Extracts learnings → knowledge.md + mistakes.md
+  Stop             →  Session marker written. Project dir initialized.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
+
+```
+SEMANTIC COMPACTION  ·  MODEL ROUTING  ·  MULTI-ACCOUNT ISOLATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  300-line threshold → Qwen distills to 50 dense lines → raw archived
+  Local Qwen3:8b on Metal (MPS) → zero cloud cost classification
+  claude-work / claude-personal → one OS, zero duplication (symlinked)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+```
 
 ---
 
-## Operating System
-
-> A self-improving AI OS built on Claude Code — the only one of its kind.
-
-The architecture most people don't build:
+## What I Build
 
 ```
-4-Tier Memory Hierarchy
-  Tier 4 — OS Global     ~/.claude/memory/os/
-            Patterns and mistakes that apply everywhere. Loaded in every session.
+AI SOLUTIONS COMPANY
+├── Automated content pipelines   AI writes → client approves → auto-deploys
+├── Multi-client social automation Cloud Run · Meta Graph API · per-client OAuth
+├── AI voice + chat assistants    Embedded in client websites
+├── Workflow automation           Custom Cloud Run · n8n · Zapier
+└── Full-stack delivery           GCP org · Firebase · GitHub Actions · Stripe
 
-  Tier 3 — Project       ~/.claude/memory/projects/<name>/
-            Per-client knowledge that persists forever — even if the project dir is deleted.
-            Auto-created on first session. Loaded by git remote detection.
-
-  Tier 2 — Agent         ~/.claude/agents/<name>/memory/
-            Domain expertise per specialization (GSAP, Firebase, DevOps, etc.)
-
-  Tier 1 — Session       In-context scratchpad. Promoted to Tier 2/3 on compact.
+EACH CLIENT GETS
+  Isolated GCP project · Private repo · Stripe subscription · Own OS memory folder
 ```
-
-**Hook system (fires automatically, zero manual intervention):**
-
-| Event | What runs |
-|---|---|
-| `SessionStart` | Loads project + OS memory into context before first keystroke |
-| `UserPromptSubmit` | Qwen3:8b classifies complexity → routes model → selects personalities |
-| `PostCompact` | Extracts learnings → `knowledge.md` · Extracts failures → `mistakes.md` |
-| `Stop` | Writes session marker · Initializes project memory on first visit |
-
-**Semantic compaction** — when `knowledge.md` hits 300 lines: Qwen distills to 50 dense lines → raw archived → distillation becomes new base. Memory never bloats, never loses signal.
-
-**Model routing** — local Qwen3:8b classifies every prompt (TRIVIAL → EASY → MEDIUM → HARD → ARCHITECTURE) at zero cloud cost. Claude switches depth accordingly.
-
-**Multi-account** — `claude-work` and `claude-personal` both inherit the full OS via symlinked settings. One OS, zero duplication.
-
----
-
-## What I Build for Clients
-
-```
-AI Solutions Company
-├── Automated blog pipelines     (weekly AI-written → client approval → auto-deploy)
-├── Multi-client social automation (Cloud Run · Meta Graph API · per-client OAuth)
-├── AI voice + chat assistants   (embedded in client websites)
-├── Workflow automation          (n8n · Zapier · custom Cloud Run services)
-└── Full-stack delivery          (GCP org · Cloud Run · Firebase · GitHub Actions)
-```
-
-Each client gets: isolated GCP project · private GitHub repo · Stripe subscription · dedicated OS memory folder.
-
----
-
-## Selected Repos
-
-| Repo | What it is |
-|---|---|
-| **[gsap-skills](https://github.com/Praveenkumarbyrapuneni/gsap-skills)** | Official GSAP skill definitions for AI coding agents — correct animation patterns, plugin usage |
-| **[awesome-design-md](https://github.com/Praveenkumarbyrapuneni/awesome-design-md)** | Drop-in `DESIGN.md` files from real brand systems — lets AI agents generate matching UI |
-| **[remotion-video-generation](https://github.com/Praveenkumarbyrapuneni/remotion-video-generation)** | Programmatic video generation with React + Remotion |
-| **[anti-gravity-extension](https://github.com/Praveenkumarbyrapuneni/anti-gravity-extension)** | CLI tool: local dev → GCP via secure tunnel · MCP integration |
-| **[genai-bootcamp](https://github.com/Praveenkumarbyrapuneni/genai-bootcamp)** | GenAI · LLMs · RAG · Agents · Cloud deployment — 6-week hands-on |
-| **[langgraph](https://github.com/Praveenkumarbyrapuneni/langgraph)** | Resilient language agents as graphs |
 
 ---
 
@@ -85,20 +91,11 @@ Each client gets: isolated GCP project · private GitHub repo · Stripe subscrip
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![Cloud Run](https://img.shields.io/badge/Cloud_Run-4285F4?style=flat-square&logo=google-cloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
-![Stripe](https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
+<img src="https://skillicons.dev/icons?i=python,js,ts,react,gcp,firebase,docker,github,vscode,linux,pytorch,bash&theme=dark&perline=6" />
 
 </div>
+
+<br/>
 
 ---
 
@@ -106,8 +103,46 @@ Each client gets: isolated GCP project · private GitHub repo · Stripe subscrip
 
 <div align="center">
 
-<img height="155" src="https://github-readme-stats.vercel.app/api?username=Praveenkumarbyrapuneni&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&bg_color=0d1117" />
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praveenkumarbyrapuneni&layout=compact&theme=dark&hide_border=true&langs_count=6&bg_color=0d1117" />
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Praveenkumarbyrapuneni&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&rank_icon=github&title_color=00D9FF&icon_color=7C3AED&text_color=ffffff&bg_color=0d1117" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praveenkumarbyrapuneni&layout=compact&theme=github_dark&hide_border=true&langs_count=6&title_color=00D9FF&text_color=ffffff&bg_color=0d1117" />
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=Praveenkumarbyrapuneni&theme=github-dark-blue&hide_border=true&ring=00D9FF&fire=7C3AED&currStreakLabel=00D9FF&sideLabels=00D9FF&dates=ffffff)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## Trophies
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=Praveenkumarbyrapuneni&theme=onestar&no-frame=true&row=1&column=7&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## Activity
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Praveenkumarbyrapuneni&theme=react-dark&hide_border=true&area=true&area_color=00D9FF&line=7C3AED&point=00D9FF&color=00D9FF&bg_color=0d1117)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Praveenkumarbyrapuneni/Praveenkumarbyrapuneni/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Praveenkumarbyrapuneni/Praveenkumarbyrapuneni/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution snake" src="https://raw.githubusercontent.com/Praveenkumarbyrapuneni/Praveenkumarbyrapuneni/output/github-contribution-grid-snake-dark.svg" />
+</picture>
 
 </div>
 
@@ -117,14 +152,16 @@ Each client gets: isolated GCP project · private GitHub repo · Stripe subscrip
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/praveenkumarbyrapuneni)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:praveenbyrapuneni2002@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat-square&logo=vercel&logoColor=white)](https://github.com/Praveenkumarbyrapuneni/Portfolio)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/praveenkumarbyrapuneni)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:praveenbyrapuneni2002@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=00D9FF)](https://github.com/Praveenkumarbyrapuneni/Portfolio)
 
 </div>
 
 <br/>
 
 <div align="center">
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0f0f0f&height=80&section=footer" width="100%" />
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0a0a1a,100:00D9FF&height=100&section=footer&reversal=true" width="100%"/>
+
 </div>
