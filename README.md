@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:0a0a1a,100:0d1117&height=200&section=header&text=PRAVEEN%20KUMAR&fontSize=52&fontColor=00D9FF&animation=fadeIn&fontAlignY=55&stroke=00D9FF&strokeWidth=1" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:0a0a1a,100:0d1117&height=200&section=header&text=PRAVEEN%20KUMAR&fontSize=52&fontColor=00D9FF&animation=fadeIn&fontAlignY=60"/>
 
 </div>
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=400&color=00D9FF&center=true&vCenter=true&multiline=false&repeat=true&width=700&lines=Building+AI+Operating+Systems.+Not+wrappers.;Systems+that+learn.+Systems+that+compound.;Hook-driven.+Memory-persistent.+Self-improving.;Infrastructure+that+outthinks+itself.;One+OS+to+run+every+project.+Forever.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=400&color=00D9FF&center=true&vCenter=true&multiline=false&repeat=true&width=700&lines=Hi%2C+I'm+Praveen+Kumar+Byrapuneni.;I+love+creating+AI+solutions+and+automation!)](https://git.io/typing-svg)
 
 </div>
 
@@ -25,10 +25,10 @@
 <div align="center">
 
 ```
-╔══════════════════════════════════════════════════════════════════╗
+╔════════════════════════════════════════════════════════════════════════════════╗
 ║              CLAUDE OS  —  SELF-IMPROVING AI OPERATING SYSTEM   ║
 ║         The only system of its kind. Built from scratch.        ║
-╚══════════════════════════════════════════════════════════════════╝
+╚════════════════════════════════════════════════════════════════════════════════╝
 ```
 
 </div>
@@ -130,7 +130,7 @@ EACH CLIENT GETS
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Praveenkumarbyrapuneni&theme=react-dark&hide_border=true&area=true&area_color=00D9FF&line=7C3AED&point=00D9FF&color=00D9FF&bg_color=0d1117)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Praveenkumarbyrapuneni&theme=react-dark&hide_border=true&area=true&area_color=00D9FF&line=7C3AED&point=00D9FF&color=00D9FF)](https://github.com/Ashutosh00710/github-readme-activity-graph)
 
 </div>
 
