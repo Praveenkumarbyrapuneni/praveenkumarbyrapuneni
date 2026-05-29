@@ -102,48 +102,29 @@ EACH CLIENT GETS
 ## Stats
 
 <div align="center">
-
-<img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Praveenkumarbyrapuneni&theme=github_dark" />
-<img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Praveenkumarbyrapuneni&theme=github_dark" />
-
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Praveenkumarbyrapuneni&theme=github_dark" />
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Praveenkumarbyrapuneni&theme=github_dark" />
+  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Praveenkumarbyrapuneni&theme=github_dark" />
 </div>
 
 <div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Praveenkumarbyrapuneni&theme=github-dark-blue&hide_border=true&ring=00D9FF&fire=7C3AED&currStreakLabel=00D9FF&sideLabels=00D9FF&dates=ffffff)](https://git.io/streak-stats)
-
+  <img src="https://streak-stats.demolab.com?user=Praveenkumarbyrapuneni&theme=github-dark-blue&hide_border=true&ring=00D9FF&fire=7C3AED&currStreakLabel=00D9FF&sideLabels=00D9FF&dates=ffffff" />
 </div>
 
 ---
 
-## Trophies
+## Contributions & Activity
 
 <div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=Praveenkumarbyrapuneni&theme=onestar&no-frame=true&row=1&column=7&no-bg=true)](https://github.com/ryo-ma/github-profile-trophy)
-
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Praveenkumarbyrapuneni&theme=react-dark&hide_border=true&area=true&area_color=00D9FF&line=7C3AED&point=00D9FF&color=00D9FF" />
 </div>
 
----
-
-## Activity
-
 <div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Praveenkumarbyrapuneni&theme=react-dark&hide_border=true&area=true&area_color=00D9FF&line=7C3AED&point=00D9FF&color=00D9FF)](https://github.com/Ashutosh00710/github-readme-activity-graph)
-
-</div>
-
----
-
-<div align="center">
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Praveenkumarbyrapuneni/Praveenkumarbyrapuneni/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Praveenkumarbyrapuneni/Praveenkumarbyrapuneni/output/github-contribution-grid-snake.svg" />
   <img alt="github contribution snake" src="https://raw.githubusercontent.com/Praveenkumarbyrapuneni/Praveenkumarbyrapuneni/output/github-contribution-grid-snake-dark.svg" />
 </picture>
-
 </div>
 
 ---
