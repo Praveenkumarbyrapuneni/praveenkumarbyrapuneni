@@ -1,148 +1,76 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:0a0a1a,100:0d1117&height=200&section=header&text=PRAVEEN%20KUMAR&fontSize=52&fontColor=00D9FF&animation=fadeIn&fontAlignY=60"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,100:1a1a2e&height=120&section=header" />
+
+# Praveen Kumar Byrapuneni
+
+**AI/ML Engineer — RAG Systems · LLM Infrastructure · AWS Bedrock**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/praveen-kumar-byrapuneni)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Praveenkumarbyrapuneni)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:praveenkumarbyrapuneni@gmail.com)
 
 </div>
+
+---
+
+## About
+
+I build production-grade AI systems for financial institutions — multi-tenant RAG pipelines, voice agents, and LLM-powered automation. Every system I ship is designed for real scale: 10M+ documents, concurrent tenants, zero data leakage between clients.
+
+---
+
+## Featured Project
+
+### [Enterprise RAG System](https://github.com/Praveenkumarbyrapuneni/enterprise-rag-agents)
+
+Production-grade document intelligence platform for financial institutions. Ingests SEC filings, earnings reports, and policy documents. Answers questions grounded in both live transaction data and indexed documents — with inline citations.
+
+**Retrieval:** Hybrid BM25 sparse + Cohere dense vectors, fused via Reciprocal Rank Fusion → Cohere reranking → MMR deduplication → parent-child chunk expansion
+
+**Pipeline:** LangGraph multi-agent orchestration → query classification → hybrid retrieval → Claude Sonnet synthesis → Claude Haiku evaluation
+
+**Infrastructure:** AWS Bedrock · Qdrant (TurboQuant 4-bit, ~1% recall loss at 8x compression) · PostgreSQL · Redis · Celery · FastAPI · Docker → AWS (zero code changes)
+
+**Security:** JWT authentication with revocation · tenant isolation enforced at vector query layer · 14 vulnerabilities audited and fixed · SEC/FINRA compliance audit log
+
+---
+
+## Tech Stack
+
+**AI/ML**
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-000000?style=flat&logo=langchain&logoColor=white)
+![AWS Bedrock](https://img.shields.io/badge/AWS_Bedrock-FF9900?style=flat&logo=amazonaws&logoColor=white)
+![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat&logo=qdrant&logoColor=white)
+![Cohere](https://img.shields.io/badge/Cohere-39594C?style=flat&logoColor=white)
+
+**Backend & Infrastructure**
+
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white)
+
+---
+
+## GitHub Stats
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2800&pause=400&color=00D9FF&center=true&vCenter=true&multiline=false&repeat=true&width=700&lines=Hi%2C+I'm+Praveen+Kumar+Byrapuneni.;I+love+creating+AI+solutions+and+automation!)](https://git.io/typing-svg)
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Praveenkumarbyrapuneni&show_icons=true&theme=github_dark&hide_border=true&count_private=true" />
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praveenkumarbyrapuneni&layout=compact&theme=github_dark&hide_border=true" />
 
 </div>
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=Praveenkumarbyrapuneni&style=flat-square&color=00D9FF&label=PROFILE+VIEWS)
-&nbsp;&nbsp;
-![GitHub followers](https://img.shields.io/github/followers/Praveenkumarbyrapuneni?style=flat-square&color=7C3AED&label=FOLLOWERS)
-
-</div>
-
-<br/>
 
 ---
 
 <div align="center">
 
-```
-╔════════════════════════════════════════════════════════════════════════════════╗
-║              CLAUDE OS  —  SELF-IMPROVING AI OPERATING SYSTEM   ║
-║         The only system of its kind. Built from scratch.        ║
-╚════════════════════════════════════════════════════════════════════════════════╝
-```
+Open to **AI/ML Engineer** roles. Building in public.
 
-</div>
-
-```
-4-TIER MEMORY HIERARCHY
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  Tier 4  OS Global    ~/.claude/memory/os/
-           Universal patterns + mistakes. Loaded in every session.
-
-  Tier 3  Project      ~/.claude/memory/projects/<name>/
-           Per-client intelligence. Persists forever. Never mixed.
-           Auto-detected via git remote. Auto-created on first session.
-
-  Tier 2  Agent        ~/.claude/agents/<name>/memory/
-           Domain expertise per specialization. Activates by workspace.
-
-  Tier 1  Session      In-context ephemeral → promoted to Tier 2/3 on compact.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
-
-```
-HOOK SYSTEM  —  ZERO MANUAL INTERVENTION
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  SessionStart     →  Loads project + OS memory before first keystroke
-  UserPromptSubmit →  Qwen3:8b classifies complexity → routes model depth
-  PostCompact      →  Extracts learnings → knowledge.md + mistakes.md
-  Stop             →  Session marker written. Project dir initialized.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
-
-```
-SEMANTIC COMPACTION  ·  MODEL ROUTING  ·  MULTI-ACCOUNT ISOLATION
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  300-line threshold → Qwen distills to 50 dense lines → raw archived
-  Local Qwen3:8b on Metal (MPS) → zero cloud cost classification
-  claude-work / claude-personal → one OS, zero duplication (symlinked)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
-
----
-
-## What I Build
-
-```
-AI SOLUTIONS COMPANY
-├── Automated content pipelines   AI writes → client approves → auto-deploys
-├── Multi-client social automation Cloud Run · Meta Graph API · per-client OAuth
-├── AI voice + chat assistants    Embedded in client websites
-├── Workflow automation           Custom Cloud Run · n8n · Zapier
-└── Full-stack delivery           GCP org · Firebase · GitHub Actions · Stripe
-
-EACH CLIENT GETS
-  Isolated GCP project · Private repo · Stripe subscription · Own OS memory folder
-```
-
----
-
-## Stack
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=python,js,ts,react,gcp,firebase,docker,github,vscode,linux,pytorch,bash&theme=dark&perline=6" />
-
-</div>
-
-<br/>
-
----
-
-## Stats
-
-<div align="center">
-  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Praveenkumarbyrapuneni&theme=github_dark" />
-  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Praveenkumarbyrapuneni&theme=github_dark" />
-  <img height="160" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Praveenkumarbyrapuneni&theme=github_dark" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Praveenkumarbyrapuneni&theme=github-dark-blue&hide_border=true&ring=00D9FF&fire=7C3AED&currStreakLabel=00D9FF&sideLabels=00D9FF&dates=ffffff" />
-</div>
-
----
-
-## Contributions & Activity
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Praveenkumarbyrapuneni&theme=react-dark&hide_border=true&area=true&area_color=00D9FF&line=7C3AED&point=00D9FF&color=00D9FF" />
-</div>
-
-<div align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Praveenkumarbyrapuneni/Praveenkumarbyrapuneni/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Praveenkumarbyrapuneni/Praveenkumarbyrapuneni/output/github-contribution-grid-snake.svg" />
-  <img alt="github contribution snake" src="https://raw.githubusercontent.com/Praveenkumarbyrapuneni/Praveenkumarbyrapuneni/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-</div>
-
----
-
-## Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/praveenkumarbyrapuneni)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:praveenbyrapuneni2002@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=vercel&logoColor=00D9FF)](https://github.com/Praveenkumarbyrapuneni/Portfolio)
-
-</div>
-
-<br/>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:0a0a1a,100:00D9FF&height=100&section=footer&reversal=true" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1a1a2e,100:0d1117&height=80&section=footer" />
 
 </div>
