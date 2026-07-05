@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=venom&color=0:0d1117,50:001a33,100:0d1117&height=200&section=header&text=PRAVEEN%20KUMAR&fontSize=60&fontColor=00D9FF&animation=fadeIn&fontAlignY=55&desc=AI%20Engineer&descSize=24&descAlignY=75&descFontColor=7FDBFF" />
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=00D9FF&center=true&vCenter=true&width=750&lines=RAG+Systems+%7C+LLM+Infrastructure+%7C+AWS+Bedrock;Voice+Agents+%7C+Twilio+%7C+AWS+Connect+%7C+ElevenLabs;Workflow+Automation+%7C+n8n+%7C+AI+Integrations;Production+AI+at+scale.+Not+demos.)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=00D9FF&center=true&vCenter=true&width=750&lines=RAG+Systems+%7C+LLM+Infrastructure+%7C+AWS+Bedrock;Multi-tenant+Pipelines+%7C+LangGraph+%7C+Qdrant;Workflow+Automation+%7C+AI+Integrations;Production+AI.+Not+demos.)](https://git.io/typing-svg)
 
 <br/>
 
@@ -17,7 +17,7 @@
 
 ## ⚡ About
 
-AI Engineer building production systems across three domains — intelligent document retrieval, AI-powered voice agents, and workflow automation. Every system designed for real clients, real scale, zero tolerance for demos that don't survive production.
+Building production AI systems — multi-tenant RAG pipelines, LLM-powered automation, and AI integrations embedded in client products. Every system designed for real scale, real clients, and zero tolerance for prototypes that don't survive production.
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
@@ -27,28 +27,20 @@ AI Engineer building production systems across three domains — intelligent doc
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
 ### 🔍 RAG & Document Intelligence
-Multi-tenant financial RAG pipelines. Hybrid BM25 + dense retrieval, LangGraph orchestration, hierarchical chunking, custom evaluation. Built to scale to 10M+ documents across millions of tenants.
+Multi-tenant financial RAG pipelines. Hybrid BM25 + dense retrieval, LangGraph orchestration, hierarchical chunking, custom LLM evaluation. Designed for 10M+ documents, millions of tenants, zero cross-tenant data leakage.
 
-**Stack:** Python · LangGraph · Qdrant · Cohere · AWS Bedrock · PostgreSQL · FastAPI
-
-</td>
-<td width="33%" valign="top">
-
-### 🎙️ Voice Agents
-AI-powered phone agents for client-facing automation. Full pipeline: speech-to-text → LLM reasoning → text-to-speech. PCI DSS aware, caller authentication, DTMF for sensitive input.
-
-**Stack:** AWS Connect · Transcribe · Bedrock · Polly · Twilio · Deepgram · ElevenLabs
+**Stack:** Python · LangGraph · Qdrant · Cohere · AWS Bedrock · PostgreSQL · Redis · FastAPI
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### ⚙️ Workflow Automation
-End-to-end automation connecting client systems, AI models, and external APIs. Campaigns, funnels, data pipelines, content automation — all orchestrated via n8n on Docker.
+### ⚙️ AI Automation & Integrations
+End-to-end AI workflows connecting LLMs, client systems, and external APIs. Campaigns, data pipelines, content automation, and LLM-powered features embedded directly in client products.
 
-**Stack:** n8n · Docker · Python · REST APIs · Webhooks · AWS Lambda
+**Stack:** n8n · Docker · Python · AWS Lambda · REST APIs · Claude · GPT-4
 
 </td>
 </tr>
@@ -58,11 +50,11 @@ End-to-end automation connecting client systems, AI models, and external APIs. C
 
 ---
 
-## 🚀 Featured Project — Enterprise RAG System
+## 🚀 Featured — Enterprise RAG System
 
 **[→ github.com/Praveenkumarbyrapuneni/enterprise-rag-agents](https://github.com/Praveenkumarbyrapuneni/enterprise-rag-agents)**
 
-Production-grade document intelligence for financial institutions. Answers questions grounded in both live transaction data and indexed policy documents — with inline source citations.
+Production-grade document intelligence for financial institutions. Answers questions grounded in both live transaction data and indexed policy documents — with inline source citations and compliance audit logs.
 
 ```
 SEC Filings · Earnings Reports · Policy Docs · Live Transactions
@@ -75,7 +67,7 @@ SEC Filings · Earnings Reports · Policy Docs · Live Transactions
                         ↓
     Claude Sonnet Synthesis → Claude Haiku Evaluation
                         ↓
-        Grounded Answer + Inline Citations + Audit Log
+       Grounded Answer + Inline Citations + Audit Log
 ```
 
 `HyDE disabled for numerical queries` · `Tenant isolation at vector layer` · `14 security vulnerabilities fixed` · `Laptop → AWS: zero code changes`
@@ -98,43 +90,27 @@ SEC Filings · Earnings Reports · Policy Docs · Live Transactions
 ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
 
-**Voice & Automation**
+**Automation & Backend**
 
-![Twilio](https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=twilio&logoColor=white)
-![ElevenLabs](https://img.shields.io/badge/ElevenLabs-000000?style=for-the-badge&logoColor=white)
 ![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
-![AWS Connect](https://img.shields.io/badge/AWS_Connect-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-**Backend & Infrastructure**
-
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+**Cloud — AWS**
+
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![Lambda](https://img.shields.io/badge/Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
+![S3](https://img.shields.io/badge/S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
+![RDS](https://img.shields.io/badge/RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white)
+![KMS](https://img.shields.io/badge/KMS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 
 </div>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
 ---
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=Praveenkumarbyrapuneni&show_icons=true&theme=github_dark&hide_border=true&title_color=00D9FF&icon_color=00D9FF&text_color=7FDBFF&bg_color=0d1117&count_private=true&include_all_commits=true" />
-
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Praveenkumarbyrapuneni&layout=compact&theme=github_dark&hide_border=true&title_color=00D9FF&text_color=7FDBFF&bg_color=0d1117&langs_count=6" />
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Praveenkumarbyrapuneni&theme=github-dark-blue&hide_border=true&stroke=00D9FF&ring=00D9FF&fire=FF6B35&currStreakLabel=00D9FF" />
-
-</div>
 
 <div align="center">
 
