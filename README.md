@@ -13,15 +13,9 @@
 
 </div>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
 ## ⚡ About
 
 Building production AI systems — multi-tenant RAG pipelines, LLM fine-tuning, and AI integrations embedded in client products. Every system designed for real scale, real clients, and zero tolerance for prototypes that don't survive production.
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
 
 ## 🧠 What I Build
 
@@ -54,10 +48,6 @@ Fine-tuning open-source LLMs on domain-specific financial data using QLoRA. Thre
 </tr>
 </table>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
 ## 🚀 Featured — Enterprise RAG System
 
 **[→ github.com/Praveenkumarbyrapuneni/enterprise-rag-agents](https://github.com/Praveenkumarbyrapuneni/enterprise-rag-agents)**
@@ -80,10 +70,6 @@ SEC Filings · Earnings Reports · Policy Docs · Live Transactions
 
 `HyDE disabled for numerical queries` · `Tenant isolation at vector layer` · `14 security vulnerabilities fixed` · `Laptop → AWS: zero code changes`
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
-
 ## 🚀 Featured — Finance LLM Fine-Tuning
 
 **[→ github.com/Praveenkumarbyrapuneni/llm-fine-tuning](https://github.com/Praveenkumarbyrapuneni/llm-fine-tuning)**
@@ -105,10 +91,6 @@ Fine-tuning Qwen3 on financial data using QLoRA — 3 tasks, 3 separate LoRA ada
 ```
 
 `5GB GPU memory vs 160GB full fine-tune` · `3 adapters, 1 base model` · `Apache 2.0 — clean commercial use`
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
 
 ## 🛠️ Tech Stack
 
@@ -145,10 +127,6 @@ Fine-tuning Qwen3 on financial data using QLoRA — 3 tasks, 3 separate LoRA ada
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 
 </div>
-
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
----
 
 <div align="center">
 
