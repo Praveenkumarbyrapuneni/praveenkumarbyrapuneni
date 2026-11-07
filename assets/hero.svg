@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 440" width="1200" height="440" role="img" aria-labelledby="t d">
-<title id="t">Praveen Kumar — backend systems and architecture</title>
-<desc id="d">An animated architecture diagram: a request travels from client through an API gateway to an orchestrator, fans out to Qdrant, a Bedrock LLM and Postgres, and the response travels back.</desc>
+<title id="t">Praveen Kumar, AI engineer</title>
+<desc id="d">An animated architecture diagram: a request travels from a web app through an API to a Claude agent, which calls RAG on Qdrant, MCP tools and Postgres, and the response travels back.</desc>
 <defs>
   <filter id="glow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#1A2540" stroke-width="1"/></pattern>
@@ -14,37 +14,37 @@
 <rect width="1200" height="440" rx="16" fill="#101826"/>
 <rect x="500" y="40" width="680" height="360" fill="url(#grid)" opacity=".9"/>
 <text x="56" y="150" class="sans" font-size="46" font-weight="700" fill="#DCE3F0" letter-spacing="-1">Praveen Kumar</text>
-<text x="56" y="196" class="sans" font-size="20" fill="#DCE3F0">I design and build the backend</text>
-<text x="56" y="224" class="sans" font-size="20" fill="#DCE3F0">that puts LLMs into production.</text>
-<text x="56" y="278" class="mono" fill="#8A97B0" style="fill:#8A97B0">RAG pipelines and agents on AWS</text>
-<text x="56" y="302" class="mono" style="fill:#8A97B0">multi-tenant, audited, observable</text>
+<text x="56" y="196" class="sans" font-size="20" fill="#DCE3F0">AI engineer. I build LLM products</text>
+<text x="56" y="224" class="sans" font-size="20" fill="#DCE3F0">end to end, agent to database.</text>
+<text x="56" y="278" class="mono" fill="#8A97B0" style="fill:#8A97B0">agents, MCP servers, RAG</text>
+<text x="56" y="302" class="mono" style="fill:#8A97B0">full stack and backend architecture</text>
 <text x="56" y="326" class="mono" style="fill:#8A97B0">designed and shipped with Claude Code</text>
 <g fill="none" stroke="#33425F" stroke-width="1.5"><use href="#cg"/><use href="#go"/><use href="#ov"/><use href="#ol"/><use href="#od"/></g>
 
   <g><rect x="517" y="118" width="136" height="44" rx="8" fill="#18233A" stroke="#33425F" stroke-width="1.5">
     <animate attributeName="stroke" dur="5s" repeatCount="indefinite"
       keyTimes="0;0.8800;0.9500;1" values="#33425F;#F2B64C;#33425F;#33425F"/></rect>
-  <text x="585" y="145" class="mono" text-anchor="middle">client</text></g>
+  <text x="585" y="145" class="mono" text-anchor="middle">web app</text></g>
   <g><rect x="697" y="118" width="136" height="44" rx="8" fill="#18233A" stroke="#33425F" stroke-width="1.5">
     <animate attributeName="stroke" dur="5s" repeatCount="indefinite"
       keyTimes="0;0.1200;0.1900;1" values="#33425F;#F2B64C;#33425F;#33425F"/>
     <animate attributeName="stroke" dur="5s" repeatCount="indefinite"
       keyTimes="0;0.7600;0.8300;1" values="#33425F;#F2B64C;#33425F;#33425F"/></rect>
-  <text x="765" y="145" class="mono" text-anchor="middle">api gateway</text></g>
+  <text x="765" y="145" class="mono" text-anchor="middle">api</text></g>
   <g><rect x="887" y="118" width="136" height="44" rx="8" fill="#18233A" stroke="#33425F" stroke-width="1.5">
     <animate attributeName="stroke" dur="5s" repeatCount="indefinite"
       keyTimes="0;0.2400;0.3100;1" values="#33425F;#F2B64C;#33425F;#33425F"/>
     <animate attributeName="stroke" dur="5s" repeatCount="indefinite"
       keyTimes="0;0.6200;0.6900;1" values="#33425F;#F2B64C;#33425F;#33425F"/></rect>
-  <text x="955" y="145" class="mono" text-anchor="middle">orchestrator</text></g>
+  <text x="955" y="145" class="mono" text-anchor="middle">claude agent</text></g>
   <g><rect x="727" y="298" width="136" height="44" rx="8" fill="#18233A" stroke="#33425F" stroke-width="1.5">
     <animate attributeName="stroke" dur="5s" repeatCount="indefinite"
       keyTimes="0;0.3800;0.4500;1" values="#33425F;#F2B64C;#33425F;#33425F"/></rect>
-  <text x="795" y="325" class="mono" text-anchor="middle">qdrant</text></g>
+  <text x="795" y="325" class="mono" text-anchor="middle">rag, qdrant</text></g>
   <g><rect x="887" y="298" width="136" height="44" rx="8" fill="#18233A" stroke="#33425F" stroke-width="1.5">
     <animate attributeName="stroke" dur="5s" repeatCount="indefinite"
       keyTimes="0;0.3600;0.4300;1" values="#33425F;#F2B64C;#33425F;#33425F"/></rect>
-  <text x="955" y="325" class="mono" text-anchor="middle">bedrock llm</text></g>
+  <text x="955" y="325" class="mono" text-anchor="middle">mcp tools</text></g>
   <g><rect x="1047" y="298" width="136" height="44" rx="8" fill="#18233A" stroke="#33425F" stroke-width="1.5">
     <animate attributeName="stroke" dur="5s" repeatCount="indefinite"
       keyTimes="0;0.3800;0.4500;1" values="#33425F;#F2B64C;#33425F;#33425F"/></rect>

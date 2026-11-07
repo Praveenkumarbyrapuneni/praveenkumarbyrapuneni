@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" width="100%" alt="Praveen Kumar. I design and build the backend that puts LLMs into production. An animated diagram shows a request moving from client to API gateway to an orchestrator, out to Qdrant, a Bedrock LLM and Postgres, and back." />
+<img src="assets/hero.svg" width="100%" alt="Praveen Kumar, AI engineer. I build LLM products end to end, agent to database. An animated diagram shows a request moving from a web app through an API to a Claude agent, which calls RAG on Qdrant, MCP tools and Postgres, and the response travels back." />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/praveenkumar-byrapuneni/)
 [![Email](https://img.shields.io/badge/Email_me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:praveenkumarbyrapuneni@gmail.com)
@@ -8,7 +8,7 @@
 
 </div>
 
-I design backend systems and the architecture around them: multi-tenant RAG pipelines, agent orchestration, fine-tuned models and the automation that connects them to real client products. Most of my work lives in private client repos. Below is what is public.
+I'm an AI engineer. I work hands-on with LLMs every day: Claude agents, MCP servers, RAG and fine-tuned models, built with Claude Code. I also build the rest of the stack they need: the backend, the architecture, the integrations and the app on top. Most of my work lives in private client repos. Below is what is public.
 
 <div align="center">
 <img src="assets/terminal.svg" width="100%" alt="Terminal showing my GitHub contributions over the last 30 days and my most recently pushed public repos. Refreshed daily by a GitHub Action." />
@@ -21,29 +21,29 @@ I design backend systems and the architecture around them: multi-tenant RAG pipe
 <tr>
 <td width="33%" valign="top">
 
-**RAG and document intelligence**
+**AI agents and MCP**
 
-Multi-tenant financial RAG. Hybrid BM25 and dense retrieval, LangGraph orchestration, hierarchical chunking and custom LLM evaluation. Built for 10M+ documents with no cross-tenant leakage.
+Claude agents that call real tools through MCP servers I write: business APIs, databases and internal systems. Tool design, prompt and context engineering, evals and guardrails, all built with Claude Code.
 
-<sub>Python, LangGraph, Qdrant, Cohere, AWS Bedrock, PostgreSQL, Redis, FastAPI</sub>
-
-</td>
-<td width="33%" valign="top">
-
-**Backend and automation**
-
-End-to-end workflows that connect LLMs to client systems and external APIs: campaigns, data pipelines, content automation and LLM features inside client products.
-
-<sub>n8n, Docker, Python, AWS Lambda, REST APIs, Claude, GPT-4</sub>
+<sub>Claude API, Claude Code, MCP, LangGraph, AWS Bedrock, OpenAI</sub>
 
 </td>
 <td width="33%" valign="top">
 
-**LLM fine-tuning**
+**RAG and fine-tuning**
 
-Qwen3 fine-tuned with QLoRA for financial sentiment, earnings call summaries and SEC filing Q&A. Data prep, training, evaluation, vLLM serving and A/B tests against GPT-4o.
+Multi-tenant RAG over 10M+ documents with hybrid retrieval, reranking and citations, and no cross-tenant leakage. Qwen3 fine-tuned with QLoRA, served on vLLM and A/B tested against GPT-4o.
 
-<sub>Python, HuggingFace, QLoRA, vLLM, FastAPI, MLflow, GCP</sub>
+<sub>Qdrant, Cohere, HuggingFace, QLoRA, vLLM, MLflow</sub>
+
+</td>
+<td width="33%" valign="top">
+
+**Full stack around the AI**
+
+The backend, architecture and automation that put a model into a real product: APIs, data pipelines, queues, workflows and the app people use.
+
+<sub>Python, FastAPI, Node.js, PostgreSQL, Redis, Docker, AWS, n8n</sub>
 
 </td>
 </tr>
@@ -138,6 +138,7 @@ The approach that survives the most of these at the lowest cost wins. I pair wit
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-D4A27F?style=flat-square&logo=anthropic&logoColor=white)
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D4A27F?style=flat-square&logo=anthropic&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-191919?style=flat-square&logo=modelcontextprotocol&logoColor=white)
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat-square)
 ![Cohere](https://img.shields.io/badge/Cohere-39594C?style=flat-square)
